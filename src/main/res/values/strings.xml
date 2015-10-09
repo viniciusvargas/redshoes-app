@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">events</string>
+    <string name="app_name">RedShoes!</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -14,4 +14,5 @@
     <string name="title_activity_beacon_image_and_layout">BeaconImageAndLayoutActivity</string>
     <string name="title_activity_beacon_image_and_single_text">BeaconImageAndSingleTextActivity
     </string>
+    <string name="title_activity_people_nearby">PeopleNearbyActivity</string>
 </resources>

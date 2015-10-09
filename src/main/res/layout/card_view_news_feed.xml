@@ -10,7 +10,7 @@
         android:id="@+id/myNfCardView"
         android:layout_gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="210dp"
+        android:layout_height="fill_parent"
         card_view:cardCornerRadius="4dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true">
@@ -31,7 +31,7 @@
             <TextView
                 android:id="@+id/myNfText"
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="fill_parent"
                 android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac lorem iaculis tortor bibendum pharetra a finibus tortor. Fusce sagittis ligula vel libero tincidunt, eu pulvinar enim gravida. "
                 android:layout_below="@id/myNfImage"/>
 

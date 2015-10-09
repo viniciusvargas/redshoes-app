@@ -58,6 +58,15 @@ public class NewsFeedAdapter extends RecyclerView.Adapter<NewsFeedAdapter.NewsVi
         return new NewsViewHolder(itemView);
     }
 
+    public List<NewsInfo> getNewsInfoList() {
+        return newsInfoList;
+    }
+
+    public void setNewsInfoList(List<NewsInfo> newsInfoList) {
+        this.newsInfoList = newsInfoList;
+    }
+
+
 
     public static class NewsViewHolder extends RecyclerView.ViewHolder {
         protected ImageView vImage;

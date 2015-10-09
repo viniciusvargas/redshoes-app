@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import io.redshoes.app.R;
+import io.redshoes.app.newsfeed.NewsFeedActivity;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
@@ -29,9 +30,8 @@ public class SplashScreenActivity extends AppCompatActivity {
             public void run() {
                 // This method will be executed once the timer is over
                 // Start your app main activity
-                Intent i = new Intent(SplashScreenActivity.this, TestActivity.class);
+                Intent i = new Intent(SplashScreenActivity.this, NewsFeedActivity.class);
                 startActivity(i);
-
                 // close this activity
                 finish();
             }
